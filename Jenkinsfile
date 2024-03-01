@@ -12,7 +12,7 @@ pipeline {
             steps {
                 echo "Building.."
                 sh '''
-                pip install pipenv"
+                pip install pipenv
                 '''
             }
         }
