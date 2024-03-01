@@ -1,3 +1,5 @@
-print('hello world')
-name = input('')
-print('hello {}!'.format(name))
+def hello(name="World"):
+  return "Hello %s!" % name
+
+if __name__ == '__main__':
+  hello()
