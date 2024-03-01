@@ -12,7 +12,6 @@ pipeline {
             steps {
                 echo "Building.."
                 sh '''
-                pip install pipenv
                 '''
             }
         }
@@ -20,7 +19,7 @@ pipeline {
             steps {
                 echo "Testing.."
                 sh '''
-                echo "doing test stuff.."
+                python3 helloworld.py
                 '''
             }
         }
