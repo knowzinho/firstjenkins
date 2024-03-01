@@ -20,6 +20,7 @@ pipeline {
                 echo "Testing.."
                 sh '''
                 python3 helloworld.py
+                python3 helloworld.py --name=Regi
                 '''
             }
         }
